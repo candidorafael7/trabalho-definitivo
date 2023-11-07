@@ -5,6 +5,7 @@ import Carrinho from "./pages/Carrinho";
 import Login from "./pages/Login";
 import Cadastro from "./pages/Cadastro/cadastro";
 import Contato from "./pages/Contato";
+import Admin from "./pages/Admin/admin";
 
 function AppRoutes(){
     return(
@@ -16,6 +17,7 @@ function AppRoutes(){
                 <Route path="/login" element={<Login />}></Route>
                 <Route path="/cadastro" element={<Cadastro />}></Route>
                 <Route path="/contato" element={<Contato/>}></Route>
+                <Route path="/admin" element={<Admin/>}></Route>
 
              </Routes>
         </BrowserRouter>

@@ -1,0 +1,21 @@
+.img-resize {
+    height: 40.25rem;
+    object-fit: cover;
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url("./imagens/arrow-right-solid.svg");
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url("./imagens/arrow-left-solid.svg");
+  }
+  
+  .carousel-control-next {
+    right: 60px;
+  }
+
+.carousel-indicators [data-bs-target]{
+    background-color: #000;
+}
+  

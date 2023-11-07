@@ -1,8 +1,7 @@
-import Footer from '../../components/Footer'
-import { Link } from 'react-router-dom'
-import './home.css'
-import NavBar from '../../components/Header/navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './home.css'
+import Banner from './carousel';
+import Footer from '../../components/Footer'
 
 
 
@@ -33,6 +32,8 @@ function Home() {
                 </figure> 
            </div>  
           </section>
+
+          <Banner/>
 
         <Footer/>
         </>
