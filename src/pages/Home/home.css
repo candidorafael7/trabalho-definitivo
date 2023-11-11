@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
-span{
+.teste{
     color: rgb(214, 197, 39);
-}
+  }
 
 section{
     height: 80vh;

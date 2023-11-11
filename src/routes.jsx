@@ -6,6 +6,9 @@ import Login from "./pages/Login";
 import Cadastro from "./pages/Cadastro/cadastro";
 import Contato from "./pages/Contato";
 import Admin from "./pages/Admin/admin";
+import ApiProdutos from "./crud/ApiProdutos";
+import Add from "./crud/add";
+import Atualizar from "./crud/Atualizar";
 
 function AppRoutes(){
     return(
@@ -18,6 +21,9 @@ function AppRoutes(){
                 <Route path="/cadastro" element={<Cadastro />}></Route>
                 <Route path="/contato" element={<Contato/>}></Route>
                 <Route path="/admin" element={<Admin/>}></Route>
+                <Route path="/admin" element={<ApiProdutos/>}></Route>
+                <Route path="/criar" element={<Add/>}></Route>
+                <Route path="/atualizar/id:" element={<Atualizar/>}></Route>
 
              </Routes>
         </BrowserRouter>

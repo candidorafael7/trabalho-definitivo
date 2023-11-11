@@ -1,6 +1,6 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import Footer from "../../components/Footer"
 import './carrinho.css'
 
@@ -77,15 +77,12 @@ function Carrinho(){
 
         <div className="botões">
         <button>Comprar</button>
-        <button>Voltar as Compras</button>
+        <Link to="/produtos"><button>Voltar as Compras</button></Link>
         </div>
 
         </form>
         
-        
-
         <Footer/>
-
         </>
     )
 }
