@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
-.teste{
+h1{
+    font-size: 50px;
+}
+
+.petzin{
     color: rgb(214, 197, 39);
+    display: flex;
   }
 
 section{

@@ -7,7 +7,7 @@ import { useNavigate} from "react-router-dom"
 import './ApiProdutos.css'
 
 function  ApiProdutos(){
-//
+
 const [valor, setValor] = useState([])
 const navigat = useNavigate()
 
@@ -15,7 +15,6 @@ useEffect(() => {
     axios.get("http://localhost:3000/produtos")
     .then(res => setValor(res.data))
     .catch(err => console.log(err))
-    navigat('/admin')
 })
 
 
@@ -40,10 +39,10 @@ useEffect(() => {
                         <td>{d.id}</td>
                         <td>{d.nome}</td>
                         <td>{d.valor}</td>
-                        <td> <img src={d.img} className="foto" /> </td>
+                        <td><img src={d.img} className="foto"/></td>
                         <td>
                             <Link to={`/atualizar/${d.id}`} className="btn btn-success">Atualizar</Link>
-                            <button onClick={e => hardSubmit(d.id)}  className="btn btn-danger">Excluir</button>
+                            <button style={{height:'37.6px',width:'87.23px'}} onClick={e => hardSubmit(d.id)}  className="btn btn-danger">Excluir</button>
                         </td>
                     </tr>
                     ))
@@ -55,6 +54,7 @@ useEffect(() => {
         
         </>
     )
+    
     //função excluir
     function hardSubmit(id){
         const conf = window.confirm("Deseja excluir esse registro?")
@@ -62,7 +62,7 @@ useEffect(() => {
             axios.delete("http://localhost:3000/produtos/"+id)
             .then(res => {
                 alert("Dados excluidos com sucesso!")
-                navigat("/")
+                navigat("/admin")
             }).catch(err => console.log(err))
         }
     }

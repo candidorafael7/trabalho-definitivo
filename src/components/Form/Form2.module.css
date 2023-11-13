@@ -50,11 +50,12 @@
 
 
 .container button{
+    width: 180px;
+    height: 55px;
     background-color:rgb(50, 112, 9) ;
     border-radius: 12px;
     font-weight: bold;
     font-size: 1.5rem;
-    padding: 24px 28px;
     border: none;
     cursor: pointer;
     color: white;
@@ -62,7 +63,6 @@
 }
 
 .btns{
-    width: 100%;
     display: flex;
     justify-content: start;
     box-sizing: border-box;

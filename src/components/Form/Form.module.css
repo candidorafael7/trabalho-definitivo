@@ -2,7 +2,6 @@
     padding: 30px 30px 30px 30px;
     display: flex;
     width: 100%;
-    margin: 1rem 0;
     justify-content: start;
     align-items: center;
 }
@@ -26,10 +25,6 @@
    
 }
 
-.container div{
-    margin-bottom:  1rem;
-}
-
 .container label {
     display: block;
     margin-bottom: 0.5rem;
@@ -50,11 +45,12 @@
 
 
 .container button{
+    width: 180px;
+    height: 55px;
     background-color:rgb(50, 112, 9) ;
     border-radius: 12px;
     font-weight: bold;
     font-size: 1.5rem;
-    padding: 24px 28px;
     border: none;
     cursor: pointer;
     color: white;
@@ -62,14 +58,9 @@
 }
 
 .btns{
-    width: 100%;
     display: flex;
     justify-content: start;
     box-sizing: border-box;
-}
-
-.btn2{
-    margin-left: 30px;
 }
 
 .container button:hover{

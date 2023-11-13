@@ -12,9 +12,9 @@ function Home() {
           <section className='container d-flex align-items-center justify-content-around'>
             <div> 
                 <h1>Bem vindo ao <br/>
-                <span className='teste'>Petzin!</span>
+                <span className='petzin'>Petzin!</span>
                 </h1>
-                <a href='/produtos' type='button' className='btn btn-success'>Saiba Mais!</a>
+                <a href='/produtos' type='button' style={{fontSize:'20px'}} className='btn btn-success'>Saiba Mais!</a>
             </div>
 
             <div>

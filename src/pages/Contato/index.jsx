@@ -48,7 +48,7 @@ function Contato(){
                             </label>
                         </div>
                         <div >
-                            <button className="btn-enviar" >Enviar</button>
+                            <button className="btn btn-success" >Enviar</button>
                         </div>
 
 

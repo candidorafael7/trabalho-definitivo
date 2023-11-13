@@ -4,7 +4,6 @@ import { Link, useParams } from "react-router-dom"
 import Footer from "../../components/Footer"
 import './carrinho.css'
 
-
 function Carrinho(){
     const {id} = useParams()
     const [data, setData] = useState([])
@@ -76,8 +75,8 @@ function Carrinho(){
         </div>
 
         <div className="botões">
-        <button>Comprar</button>
-        <Link to="/produtos"><button>Voltar as Compras</button></Link>
+        <button className="tampinha">Comprar</button>
+        <Link to="/produtos"><button className="tampinha">Voltar as Compras</button></Link>
         </div>
 
         </form>

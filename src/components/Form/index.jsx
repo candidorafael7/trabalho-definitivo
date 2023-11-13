@@ -19,7 +19,7 @@ function Form() {
                     </label>
                 </div>
                 <div className={styles.btns}>
-                    <button>Fazer Login</button>
+                    <button className="btn btn-success">Fazer Login</button>
                     <Link to="/cadastro"><button className={styles.btn2}>Fazer Cadastro</button></Link>
                 </div>
     
