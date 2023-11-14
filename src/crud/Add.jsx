@@ -10,7 +10,7 @@ function Add()
 
     function HandSubmit(event){
         event.preventDefault()
-        axios.post("http://localhost:3000/produtos", inputData)
+        axios.post("https://bd-react-9kp5.onrender.com/produtos", inputData)
         .then(res =>{
             alert("Dados inseridos com sucesso")
             navigat('/admin')

@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './home.css'
 import Banner from './carousel';
 import Footer from '../../components/Footer'
+import imghome1 from '../../assets/imghome1.jpg'
 
 
 
@@ -19,7 +20,7 @@ function Home() {
 
             <div>
                 <figure className='d-flex flex-column'>
-                    <img src="../../../gato (1).png" alt="gato imagem"  className='mb-4'/>
+                    <img src={imghome1} alt="gato imagem"  className='mb-4'/>
                     <i>
                         <a target='_blank'
                         className='link-offset-2 link-underline link-underline-opacity-0 link-success' 

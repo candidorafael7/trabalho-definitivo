@@ -5,6 +5,7 @@ import Footer from "../../components/Footer"
 import './carrinho.css'
 
 function Carrinho(){
+
     const {id} = useParams()
     const [data, setData] = useState([])
 

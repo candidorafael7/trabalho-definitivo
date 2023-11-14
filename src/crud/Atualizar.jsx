@@ -11,14 +11,14 @@ function Atualizar(){
     const navigat = useNavigate()
 
     useEffect(() => {
-        axios.get("http://localhost:3000/produtos/"+id)
+        axios.get("https://bd-react-9kp5.onrender.com/produtos/"+id)
         .then(res => setData(res.data))
         .catch(err => console.log(err))
     }, [])
 
     function handSubmit(event){
         event.preventDefault()
-        axios.put("http://localhost:3000/produtos/"+id, data)
+        axios.put("https://bd-react-9kp5.onrender.com/produtos/"+id, data)
         .then(res =>{
             alert("Dados atualizados com sucesso!")
             navigat("/admin")
