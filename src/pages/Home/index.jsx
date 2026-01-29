@@ -21,15 +21,6 @@ function Home() {
             <div>
                 <figure className='d-flex flex-column'>
                     <img src={imghome1} alt="gato imagem"  className='mb-4'/>
-                    <i>
-                        <a target='_blank'
-                        className='link-offset-2 link-underline link-underline-opacity-0 link-success' 
-                        href="https://www.flaticon.com/br/icones-gratis/gato" 
-                        title="gato ícones">
-                        
-                            Gato ícones criados por Voysla - Flaticon
-                        </a>
-                    </i>
                 </figure> 
            </div>  
           </section>
